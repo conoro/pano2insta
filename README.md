@@ -17,14 +17,15 @@ To use this you'll need Python and then install ImageMagick and Wand
 
 Want to use it as a Windows Executable instead of installing Python etc every time?
 
-`pip install auto-py-to-exe`
-`auto-py-to-exe`
+* `pip install auto-py-to-exe`
+* `auto-py-to-exe`
 
 * Select the py file
 * Choose "Single File" output.
 
 ## Usage on Android
 * Install [Termux](https://termux.com/)
-* pkg install imagemagick
-* pip intall wand
- 
+* `pkg install imagemagick`
+* `pip install wand`
+
+
