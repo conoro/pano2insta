@@ -1,19 +1,7 @@
 #!/usr/bin/python
 
-## Converts Huawei P30 Pro (and presumably other phone's) panoramic images to multiple square 1080x1080 images for use on Instagram as a pseudo-panorama
-## To use this you'll need to have Python and then install ImageMagick and Wand
-## Imagemagick: https://imagemagick.org/script/download.php
-## Wand: pip install wand
-# On Android:
-#  * Install [Termux](https://termux.com/)
-#  * pkg install imagemagick
-#  * pip intall wand
-# 
-# Want to use it as a Windows Executable instead of installing Python etc every time?
-# pip install auto-py-to-exe
-# auto-py-to-exe
-#   * Select the py file
-#   * Choose "Single File" output.
+# pano2insta - Panorama to Instagram
+# Copyright Conor O'Neill 2021, conor@conoroneill.com
 
 from wand.image import Image
 from wand.display import display
