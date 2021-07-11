@@ -28,4 +28,6 @@ Want to use it as a Windows Executable instead of installing Python etc every ti
 * `pkg install imagemagick`
 * `pip install wand`
 
+## Notes
+* Imagemagick incorrectly recognises the orientation of the panoramic images from my Huawei P30 Pro. It thinks they are long and narrow. Hence the use of the -90 and 90 rotations in the code. If it gets it right for your phone, simply comment out the two rotate lines in the code.
 
