@@ -30,6 +30,7 @@ Want to use it as a Windows Executable instead of installing Python etc every ti
 
 ## Notes
 * Imagemagick incorrectly recognises the orientation of the panoramic images from my Huawei P30 Pro. It thinks they are long and narrow. Hence the use of the -90 and 90 rotations in the code. If it gets it right for your phone, simply comment out the two rotate lines in the code.
+* [Blogpost](https://conoroneill.net/2021/07/12/pano2insta-panoramic-photo-to-instagram-converter/) about the tool.
 
 ## TO-DO
 * Handle images wider than 10800 (the maximum on Instagram via 10 x 1080)
